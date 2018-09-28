@@ -239,6 +239,12 @@ header.masthead p {
   display: block;
   max-width: 650px;
   margin: 0 auto;
+  height: 100%;
+}
+
+.img-fluid{
+  height: 300px;
+  width: 100%;
 }
 
 .portfolio-box .portfolio-box-caption {
