@@ -149,7 +149,7 @@ img::-moz-selection {
   }
   #mainNav .navbar-nav > li.nav-item > a.nav-link,
   #mainNav .navbar-nav > li.nav-item > a.nav-link:focus {
-    color: #212529;
+    color: #FFFFFF;
   }
   #mainNav .navbar-nav > li.nav-item > a.nav-link:hover,
   #mainNav .navbar-nav > li.nav-item > a.nav-link:focus:hover {
@@ -181,6 +181,16 @@ header.masthead {
   background-image: url("../img/banner.jpg");
   background-position: center center;
   background-size: cover;
+}
+
+
+
+.banner-overlay{
+  background-color: rgba(0, 0, 0, 0.75);
+  width: 100%;
+
+  padding-top: 10rem;
+  padding-bottom: calc(10rem - 56px);
 }
 
 header.masthead hr {
@@ -330,7 +340,7 @@ header.masthead p {
 
 .btn-primary:hover, .btn-primary:focus, .btn-primary:active {
   color: #fff;
-  background-color: #ee4b28 !important;
+  background-color: #6b911b !important;
   border: 1px solid #6b911b;
 }
 
